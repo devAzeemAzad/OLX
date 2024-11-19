@@ -1,0 +1,1780 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hamburger {
+  display: none;
+}
+.Olx {
+  margin-right: 1vw;
+}
+.Navigation1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eff1f3;
+  height: 68px;
+  width: 100%;
+}
+.nav1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-1-1 {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.locationbar {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border: 2px solid #002f34;
+  height: 48px;
+  padding: 0 8px;
+  background-color: #ffffff;
+  justify-content: flex-end;
+}
+.locationbar:active {
+  border: 2px solid aqua;
+}
+
+.locationbar1 {
+  padding: 0 10px;
+  height: 44px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  outline: none;
+  border: none;
+}
+.Serchbar {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border: 2px solid #002f34;
+  height: 48px;
+  padding-left: 8px;
+  background-color: #ffffff;
+}
+#Serchicon {
+  background-color: #002f34;
+  height: 48px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+.Serchbar1 {
+  padding: 0 10px;
+  height: 44px;
+  width: 580px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  outline: none;
+  border: none;
+}
+.English {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 10px;
+  font-weight: 700;
+  font: 0.8em sans-serif;
+  color: #002f34;
+  > h3 {
+    padding-right: 5px;
+  }
+}
+.Login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: 700;
+  font: 0.8em sans-serif;
+  color: #002f34;
+  margin: 0;
+  height: 68px;
+  padding-left: 10px;
+  > h3 {
+    height: 15px;
+  }
+}
+.line {
+  border-top: 2px solid #002f34;
+  width: 40px;
+  height: 2px;
+  margin-top: 2px;
+}
+.Sell {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 9px;
+  width: 69px;
+  padding: 1px 6px;
+  height: 30px;
+  font-weight: 700;
+  color: #002f34;
+  font: 0.9em sans-serif;
+  text-transform: uppercase;
+  border: 2px solid rgb(0, 110, 255);
+  border-radius: 20px;
+  box-shadow: 1px 1px 4px;
+}
+.fa-bars {
+  margin-left: 10px;
+}
+.Navigation2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #eff1f3;
+  background-color: #ffffff;
+  width: 100%;
+  height: 50px;
+  margin-top: 3px;
+  margin-bottom: 24px;
+}
+.nav2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 77%;
+}
+#category {
+  outline: none;
+  border: none;
+  color: #002f34;
+  font-weight: 600;
+  width: 144px;
+  font-size: 14px;
+}
+.cars {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 76%;
+  color: #002f34;
+  font: 11px sans-serif;
+  padding-left: 20px;
+}
+.freshtext {
+  font: 1em sans-serif;
+  color: #002f34;
+  font-size: 24px;
+  padding-left: 249px;
+}
+.Products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  list-style: none;
+}
+.product {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 70%;
+}
+.product1 {
+  border: 1px solid gray;
+  width: 270px;
+  height: 259px;
+  justify-content: space-between;
+  margin-top: 20px;
+  display: list-item;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-sizing: border-box;
+}
+.product1image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 267px;
+  height: 160px;
+}
+.product1image img {
+  object-fit: contain;
+  width: 255px;
+  height: 160px;
+}
+.product1text {
+  padding: 8px 12px;
+  font: 1em sans-serif;
+  > h3 {
+    font-size: 23px;
+  }
+  > h4 {
+    font-size: 14px;
+    padding-top: 2px;
+    font-weight: 300;
+  }
+  > h5 {
+    font-size: 13px;
+    color: #2f5559;
+    font-weight: 200;
+    padding-top: 5px;
+  }
+  > h6 {
+    font-size: 10px;
+    color: #2f5559;
+    font-weight: 100;
+    padding-top: 5px;
+  }
+}
+.product2 {
+  border: 1px solid gray;
+  width: 270px;
+  justify-content: space-between;
+  display: list-item;
+  height: 259px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-sizing: border-box;
+}
+.product2text {
+  padding: 8px 12px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  font: 1em sans-serif;
+  > h3 {
+    font-size: 23px;
+    padding-bottom: 4px;
+  }
+  > h5 {
+    font-size: 13px;
+    color: #2f5559;
+    font-weight: 200;
+    padding-bottom: 15px;
+  }
+  > h6 {
+    font-size: 10px;
+    color: #2f5559;
+    font-weight: 100;
+    padding-top: 5px;
+  }
+}
+.Navigation3 {
+  height: 184px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #ebeeef;
+  justify-content: center;
+  flex-basis: 20%;
+  margin-top: 20px;
+}
+
+.nav3 {
+  width: 60%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.popularlocation {
+  > h2 {
+    font: 1em sans-serif;
+    color: #002f34;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 7px;
+    font-size: 15px;
+  }
+  > h4 {
+    font: 0.8em sans-serif;
+    color: #557477;
+    font-weight: 400;
+    padding-top: 7px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+}
+.followus {
+  > h2 {
+    font: 1em sans-serif;
+    color: #002f34;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+}
+.facebook {
+  display: flex;
+  padding-bottom: 73px;
+}
+.facebook1 {
+  padding-right: 5px;
+  height: 27px;
+  fill: #557477;
+  width: 30px;
+}
+.playstore1 {
+  padding-right: 5px;
+}
+.Navigation4 {
+  width: 100%;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #002f34;
+}
+.nav4 {
+  color: rgba(255, 255, 255, 0.886);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font: 1em sans-serif;
+  font-size: 11px;
+  width: 71%;
+}
+.Help {
+  padding-top: 10px;
+}
+@media screen and (max-width: 1440px) {
+  .locationbar {
+    height: 40px;
+    padding: 0 6px;
+  }
+  .locationbar1 {
+    padding: 0 5px;
+    height: 36px;
+    width: 175px;
+    font-size: 15px;
+    padding: 0 6px;
+  }
+  .Serchbar {
+    height: 40px;
+  }
+  #Serchicon {
+    height: 39px;
+    width: 40px;
+  }
+  .fa-2xl {
+    font-size: large;
+  }
+  .fa-xl {
+    font-size: x-large;
+  }
+  .fa-l {
+    font-size: small;
+  }
+  .Serchbar1 {
+    padding: 0 5px;
+    height: 36px;
+    width: 500px;
+    font-size: 15px;
+  }
+
+  .English {
+    font: 0.7em sans-serif;
+    > h3 {
+      padding-right: 2px;
+    }
+  }
+  .Login {
+    font-size: 11px;
+    font-weight: 700;
+    font: 0.7em sans-serif;
+  }
+  .line {
+    width: 33px;
+    height: 1px;
+    margin-top: 1px;
+  }
+  .Sell {
+    width: 55px;
+    padding: 1px 3px;
+    height: 35px;
+    font: 0.7em sans-serif;
+  }
+  .Navigation2 {
+    height: 40px;
+    margin-bottom: 15px;
+  }
+  .nav2 {
+    width: 76%;
+  }
+  #category {
+    width: 138px;
+    font-size: 13px;
+  }
+  .cars {
+    width: 85%;
+    padding-left: 8px;
+  }
+  .freshtext {
+    font-size: 23px;
+    padding-left: 170px;
+  }
+  .product {
+    width: 76%;
+    margin-left: 15px;
+  }
+  .product1 {
+    width: 250px;
+    height: 259px;
+    margin-top: 17px;
+  }
+  .product1image {
+    width: 250px;
+  }
+  .product1image img {
+    width: 230px;
+  }
+  .product1text {
+    padding: 4px 6px;
+    > h3 {
+      font-size: 20px;
+    }
+    > h4 {
+      padding-top: 4px;
+    }
+    > h5 {
+      font-size: 12px;
+    }
+  }
+  .product2 {
+    width: 250px;
+  }
+  .product2text {
+    padding: 4px 6px;
+    > h3 {
+      font-size: 20px;
+    }
+    > h5 {
+      font-size: 12px;
+      padding-bottom: 20px;
+    }
+  }
+  .Navigation3 {
+    height: 150px;
+  }
+  .nav3 {
+    width: 65%;
+    margin-left: 9px;
+  }
+  .popularlocation {
+    > h2 {
+      font-size: 14px;
+    }
+    > h4 {
+      padding-top: 5px;
+      cursor: pointer;
+      font-size: 11px;
+    }
+  }
+  .followus {
+    > h2 {
+      font-size: 14px;
+    }
+  }
+  .facebook {
+    padding-bottom: 55px;
+  }
+  .facebook1 {
+    height: 26px;
+    width: 29px;
+  }
+  .Navigation4 {
+    height: 42px;
+  }
+  .nav4 {
+    font-size: 9px;
+    width: 95%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .Navigation1 {
+    height: 60px;
+  }
+  .nav-1-1 {
+    width: 79%;
+  }
+  .locationbar {
+    height: 40px;
+    padding: 0 6px;
+  }
+  .locationbar1 {
+    padding: 0 5px;
+    height: 36px;
+    width: 175px;
+    font-size: 15px;
+  }
+  .Serchbar {
+    height: 40px;
+  }
+  #Serchicon {
+    height: 39px;
+    width: 40px;
+  }
+  .fa-2xl {
+    font-size: large;
+  }
+  .fa-xl {
+    font-size: x-large;
+  }
+  .fa-l {
+    font-size: small;
+  }
+  .Serchbar1 {
+    padding: 0 5px;
+    height: 36px;
+    width: 500px;
+    font-size: 15px;
+  }
+
+  .English {
+    font: 0.7em sans-serif;
+    > h3 {
+      padding-right: 2px;
+    }
+  }
+  .Login {
+    font-size: 11px;
+    font: 0.7em sans-serif;
+  }
+  .line {
+    width: 33px;
+    height: 1px;
+    margin-top: 1px;
+  }
+  .Sell {
+    width: 55px;
+    padding: 1px 3px;
+    height: 35px;
+    font: 0.7em sans-serif;
+  }
+  .Navigation2 {
+    height: 40px;
+    margin-bottom: 15px;
+  }
+  .nav2 {
+    width: 82%;
+  }
+  #category {
+    width: 138px;
+    font-size: 13px;
+  }
+  .cars {
+    width: 85%;
+    padding-left: 8px;
+  }
+  .freshtext {
+    font-size: 23px;
+    padding-left: 137px;
+  }
+  .product {
+    width: 80%;
+    margin-left: 15px;
+  }
+  .product1 {
+    width: 240px;
+    height: 249px;
+    margin-top: 17px;
+  }
+  .product1image {
+    width: 240px;
+    height: 150px;
+  }
+  .product1image img {
+    width: 220px;
+    height: 150px;
+  }
+  .product1text {
+    padding: 4px 6px;
+    > h3 {
+      font-size: 19px;
+    }
+    > h4 {
+      font-size: 12px;
+      padding-top: 4px;
+    }
+    > h5 {
+      font-size: 11px;
+    }
+    > h6 {
+      font-size: 9px;
+    }
+  }
+  .product2 {
+    width: 250px;
+    .product2text {
+      padding: 4px 6px;
+      > h3 {
+        font-size: 19px;
+      }
+
+      > h5 {
+        font-size: 12px;
+        padding-bottom: 20px;
+      }
+    }
+    .Navigation3 {
+      height: 150px;
+    }
+    .nav3 {
+      width: 68%;
+      margin-left: 9px;
+    }
+    .popularlocation {
+      > h2 {
+        font-size: 14px;
+      }
+      > h4 {
+        padding-top: 5px;
+        font-size: 11px;
+      }
+    }
+    .followus {
+      > h2 {
+        font-size: 14px;
+      }
+    }
+    .facebook {
+      padding-bottom: 55px;
+    }
+    .facebook1 {
+      height: 26px;
+      width: 29px;
+    }
+    .Navigation4 {
+      height: 42px;
+    }
+    .nav4 {
+      font-size: 9px;
+      width: 95%;
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .Navigation1 {
+    height: 60px;
+  }
+  .nav-1-1 {
+    width: 80%;
+  }
+  .locationbar {
+    height: 40px;
+    padding: 0 6px;
+  }
+  .locationbar1 {
+    padding: 0 5px;
+    height: 36px;
+    width: 165px;
+    font-size: 15px;
+    padding: 0 6px;
+  }
+  .Serchbar {
+    height: 40px;
+  }
+  #Serchicon {
+    height: 39px;
+    width: 40px;
+  }
+  .fa-2xl {
+    font-size: large;
+  }
+  .fa-xl {
+    font-size: x-large;
+  }
+  .fa-l {
+    font-size: small;
+  }
+  .Serchbar1 {
+    padding: 0 5px;
+    height: 36px;
+    width: 450px;
+    font-size: 15px;
+  }
+
+  .English {
+    font: 0.7em sans-serif;
+    > h3 {
+      padding-right: 2px;
+    }
+  }
+  .Login {
+    font-size: 11px;
+    font: 0.7em sans-serif;
+  }
+  .line {
+    width: 33px;
+    height: 1px;
+    margin-top: 1px;
+  }
+  .Sell {
+    width: 55px;
+    padding: 1px 3px;
+    height: 35px;
+    font: 0.7em sans-serif;
+  }
+  .Navigation2 {
+    height: 40px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+  }
+  .nav2 {
+    width: 82%;
+  }
+  #category {
+    width: 127px;
+    font-size: 12px;
+  }
+  .cars {
+    width: 85%;
+    font: 10px sans-serif;
+    padding-left: 8px;
+  }
+  .freshtext {
+    font-size: 21px;
+    padding-left: 113px;
+  }
+  .product {
+    width: 82%;
+    margin-left: 15px;
+  }
+  .product1 {
+    width: 230px;
+    height: 239px;
+    margin-top: 16px;
+  }
+  .product1image {
+    width: 230px;
+    height: 140px;
+  }
+  .product1image img {
+    width: 210px;
+    height: 140px;
+  }
+
+  .product1text {
+    padding: 4px 6px;
+    > h3 {
+      font-size: 19px;
+    }
+    > h4 {
+      font-size: 12px;
+      padding-top: 4px;
+    }
+    > h5 {
+      font-size: 11px;
+    }
+    > h6 {
+      font-size: 9px;
+    }
+  }
+  .product2 {
+    width: 250px;
+    height: 259px;
+  }
+
+  .product2text {
+    > h3 {
+      font-size: 19px;
+    }
+
+    > h5 {
+      font-size: 12px;
+      padding-bottom: 20px;
+    }
+  }
+  .Navigation3 {
+    height: 150px;
+  }
+  .nav3 {
+    width: 68%;
+    margin-left: 9px;
+  }
+  .popularlocation {
+    > h2 {
+      font-size: 13.5px;
+    }
+    > h4 {
+      padding-top: 5px;
+      font-size: 10.5px;
+    }
+  }
+  .followus {
+    > h2 {
+      font-size: 13.5px;
+    }
+  }
+  .facebook {
+    padding-bottom: 55px;
+  }
+  .facebook1 {
+    height: 26px;
+    width: 29px;
+  }
+  .Navigation4 {
+    height: 42px;
+  }
+  .nav4 {
+    font-size: 9px;
+    width: 95%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .Navigation1 {
+    height: 55px;
+  }
+  .Olx {
+    margin-right: 0.5vw;
+  }
+  .nav1 {
+    width: 96%;
+  }
+  .nav-1-1 {
+    width: 82%;
+  }
+  .locationbar {
+    height: 36px;
+    padding: 0 5px;
+  }
+  .locationbar1 {
+    padding: 0 5px;
+    height: 32px;
+    width: 160px;
+    font-size: 15px;
+    padding: 0 6px;
+  }
+  .Serchbar {
+    height: 36px;
+  }
+  #Serchicon {
+    height: 35px;
+    width: 40px;
+  }
+  .fa-2xl {
+    font-size: large;
+  }
+  .fa-xl {
+    font-size: 25px;
+  }
+  .fa-l {
+    font-size: small;
+  }
+  .Serchbar1 {
+    padding: 0 5px;
+    height: 32px;
+    width: 400px;
+    font-size: 15px;
+  }
+  .English {
+    font: 0.6em sans-serif;
+    > h3 {
+      padding-right: 2px;
+    }
+  }
+  .Login {
+    font-size: 4px;
+    font: 0.6em sans-serif;
+    > h3 {
+      height: 12px;
+    }
+  }
+  .line {
+    width: 30px;
+    height: 1px;
+    margin-top: 1px;
+  }
+  .Sell {
+    font-size: 8px;
+    width: 51px;
+    padding: 1px 3px;
+    height: 29px;
+    font: 0.6em sans-serif;
+  }
+  .Navigation2 {
+    height: 40px;
+    margin-bottom: 15px;
+  }
+  .nav2 {
+    width: 82%;
+  }
+  #category {
+    width: 122px;
+    font-size: 11.5px;
+  }
+  .cars {
+    width: 85%;
+    font: 9.5px sans-serif;
+    padding-left: 8px;
+  }
+  .freshtext {
+    font-size: 21px;
+    padding-left: 113px;
+  }
+  .product {
+    width: 82%;
+    margin-left: 15px;
+  }
+  .product1 {
+    width: 210px;
+    height: 219px;
+    margin-top: 16px;
+  }
+  .product1image {
+    width: 210px;
+    height: 140px;
+  }
+  .product1image img {
+    width: 190px;
+    height: 130px;
+  }
+
+  .product1text {
+    padding: 4px 6px;
+    > h3 {
+      font-size: 19px;
+    }
+    > h4 {
+      font-size: 12px;
+      padding-top: 4px;
+    }
+    > h5 {
+      font-size: 10px;
+      padding-top: 5px;
+    }
+    > h6 {
+      font-size: 9px;
+    }
+  }
+  .product2 {
+    width: 250px;
+  }
+
+  .product2text {
+    padding: 4px 6px;
+    > h3 {
+      font-size: 19px;
+    }
+
+    > h5 {
+      font-size: 10.5px;
+      padding-bottom: 20px;
+    }
+    > h6 {
+      font-size: 9px;
+    }
+  }
+  .Navigation3 {
+    height: 150px;
+  }
+  .nav3 {
+    width: 68%;
+    margin-left: 9px;
+  }
+  .popularlocation {
+    > h2 {
+      font-size: 13.5px;
+    }
+    > h4 {
+      padding-top: 5px;
+      font-size: 10.5px;
+    }
+  }
+  .followus {
+    > h2 {
+      font-size: 13.5px;
+    }
+  }
+  .facebook {
+    padding-bottom: 55px;
+  }
+  .facebook1 {
+    height: 26px;
+    width: 29px;
+  }
+  .Navigation4 {
+    height: 42px;
+  }
+  .nav4 {
+    font-size: 9px;
+    width: 95%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .Navigation1 {
+    height: 55px;
+  }
+  .Olx {
+    margin-right: 0.4vw;
+  }
+  .nav1 {
+    width: 95%;
+  }
+  .nav-1-1 {
+    width: 80%;
+  }
+  .locationbar {
+    height: 32px;
+    padding: 0 5px;
+  }
+  .locationbar1 {
+    padding: 0 5px;
+    height: 26px;
+    width: 150px;
+    font-size: 15px;
+    padding: 0 6px;
+  }
+  .Serchbar {
+    height: 32px;
+  }
+  #Serchicon {
+    height: 30px;
+    width: 35px;
+  }
+  .fa-2xl {
+    font-size: large;
+  }
+  .fa-xl {
+    font-size: 20px;
+  }
+  .fa-l {
+    font-size: small;
+  }
+  .Serchbar1 {
+    padding: 0 5px;
+    height: 26px;
+    width: 350px;
+    font-size: 15px;
+  }
+  .English {
+    font: 0.55em sans-serif;
+    > h3 {
+      padding-right: 2px;
+    }
+  }
+  .Login {
+    font-size: 4px;
+    font: 0.57em sans-serif;
+    > h3 {
+      height: 12px;
+    }
+  }
+  .line {
+    width: 30px;
+    height: 1px;
+    margin-top: 1px;
+  }
+  .Sell {
+    font-size: 8px;
+    width: 51px;
+    padding: 1px 3px;
+    height: 29px;
+    font: 0.6em sans-serif;
+  }
+  .bar {
+    height: 50px;
+    width: 50px;
+  }
+  .Navigation2 {
+    height: 40px;
+    margin-bottom: 15px;
+  }
+  .nav2 {
+    width: 90%;
+  }
+  #category {
+    width: 122px;
+    font-size: 11.5px;
+  }
+  .cars {
+    width: 85%;
+    font: 9.5px sans-serif;
+    padding-left: 8px;
+  }
+  .freshtext {
+    font-size: 21px;
+    padding-left: 100px;
+  }
+  .product {
+    width: 82%;
+    margin-left: 15px;
+  }
+  .product1 {
+    width: 200px;
+    height: 209px;
+    margin-top: 16px;
+  }
+  .product1image {
+    width: 200px;
+    height: 130px;
+  }
+  .product1image img {
+    width: 190px;
+    height: 120px;
+  }
+  .product1text {
+    padding: 4px 6px;
+    > h3 {
+      font-size: 19px;
+    }
+    > h4 {
+      font-size: 12px;
+      padding-top: 4px;
+    }
+    > h5 {
+      font-size: 10px;
+    }
+    > h6 {
+      font-size: 9px;
+    }
+  }
+  .product2 {
+    width: 250px;
+  }
+  .product2text {
+    padding: 4px 6px;
+    > h3 {
+      font-size: 19px;
+    }
+    > h5 {
+      font-size: 10.5px;
+      padding-bottom: 20px;
+    }
+    > h6 {
+      font-size: 9px;
+    }
+  }
+  .Navigation3 {
+    height: 150px;
+  }
+  .nav3 {
+    width: 68%;
+    margin-left: 9px;
+  }
+  .popularlocation {
+    > h2 {
+      font-size: 13.5px;
+    }
+    > h4 {
+      padding-top: 5px;
+      font-size: 10.5px;
+    }
+  }
+  .followus {
+    > h2 {
+      font-size: 13.5px;
+    }
+  }
+  .facebook {
+    padding-bottom: 55px;
+  }
+  .facebook1 {
+    height: 26px;
+    width: 29px;
+  }
+  .Navigation4 {
+    height: 42px;
+  }
+  .nav4 {
+    font-size: 9px;
+    width: 95%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .Navigation1 {
+    height: 55px;
+  }
+  .hamburger {
+    display: none;
+  }
+  .Olx {
+    margin-right: 0.4vw;
+  }
+  .nav1 {
+    width: 96%;
+  }
+  .nav-1-1 {
+    width: 85%;
+  }
+  .locationbar {
+    height: 30px;
+    padding: 0 5px;
+  }
+  .locationbar1 {
+    padding: 0 5px;
+    height: 26px;
+    width: 130px;
+    font-size: 15px;
+  }
+  .Serchbar {
+    height: 30px;
+  }
+  #Serchicon {
+    height: 30px;
+    width: 35px;
+  }
+  .fa-2xl {
+    font-size: large;
+  }
+  .fa-xl {
+    font-size: 20px;
+  }
+  .fa-l {
+    font-size: small;
+  }
+  .Serchbar1 {
+    padding: 0 5px;
+    height: 26px;
+    width: 320px;
+    font-size: 15px;
+  }
+
+  .English {
+    font: 0.55em sans-serif;
+    > h3 {
+      padding-right: 2px;
+    }
+  }
+  .Login {
+    font-size: 4px;
+    font: 0.57em sans-serif;
+    > h3 {
+      height: 12px;
+    }
+  }
+  .line {
+    width: 30px;
+    height: 1px;
+    margin-top: 1px;
+  }
+  .Sell {
+    font-size: 8px;
+    width: 51px;
+    padding: 1px 3px;
+    height: 29px;
+    font: 0.6em sans-serif;
+  }
+  .bar {
+    height: 50px;
+    width: 50px;
+  }
+  .Navigation2 {
+    height: 40px;
+    margin-bottom: 15px;
+  }
+  .nav2 {
+    width: 95%;
+  }
+  #category {
+    width: 120px;
+    font-size: 11.5px;
+    text-transform: capitalize;
+  }
+  .cars {
+    width: 89%;
+    font: 9px sans-serif;
+    padding-left: 8px;
+  }
+  .freshtext {
+    font-size: 21px;
+    padding-left: 90px;
+  }
+  .product {
+    width: 82%;
+    margin-left: 48px;
+  }
+  .product1 {
+    width: 200px;
+    height: 209px;
+    margin-top: 16px;
+  }
+  .product1image {
+    width: 200px;
+    height: 130px;
+  }
+  .product1image img {
+    width: 190px;
+    height: 120px;
+  }
+  .product1text {
+    padding: 4px 6px;
+    > h3 {
+      font-size: 19px;
+    }
+    > h4 {
+      font-size: 12px;
+      padding-top: 4px;
+    }
+    > h5 {
+      font-size: 10px;
+    }
+    > h6 {
+      font-size: 9px;
+    }
+  }
+  .product2 {
+    width: 250px;
+    height: 259px;
+  }
+  .product2text {
+    padding: 4px 6px;
+    > h3 {
+      font-size: 19px;
+    }
+    > h5 {
+      font-size: 10.5px;
+      padding-bottom: 20px;
+    }
+    > h6 {
+      font-size: 9px;
+    }
+  }
+  .Navigation3 {
+    height: 150px;
+  }
+  .nav3 {
+    width: 68%;
+    margin-left: 9px;
+  }
+  .popularlocation {
+    > h2 {
+      font-size: 13.5px;
+    }
+    > h4 {
+      padding-top: 5px;
+      font-size: 10.5px;
+    }
+  }
+  .followus {
+    > h2 {
+      font-size: 13.5px;
+    }
+  }
+  .facebook {
+    padding-bottom: 55px;
+  }
+  .facebook1 {
+    height: 26px;
+    width: 29px;
+  }
+  .Navigation4 {
+    height: 42px;
+  }
+  .nav4 {
+    font-size: 9px;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Navigation1 {
+    height: 55px;
+  }
+  .hamburger {
+    position: absolute;
+    right: 15px;
+    display: block;
+    z-index: 2;
+  }
+  .nav-1-1 {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+    position: fixed;
+    top: 50vh;
+    transform: translate(0, -50%);
+  }
+  .nav1 {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 50vh;
+  }
+  .locationbar {
+    height: 30px;
+    padding: 0 5px;
+  }
+  .locationbar1 {
+    padding: 0 5px;
+    height: 26px;
+    width: 130px;
+    font-size: 15px;
+  }
+  .Serchbar {
+    height: 30px;
+  }
+  #Serchicon {
+    height: 30px;
+    width: 35px;
+  }
+  .fa-2xl {
+    font-size: large;
+  }
+  .fa-xl {
+    font-size: 19px;
+  }
+  .fa-l {
+    font-size: small;
+  }
+  .Serchbar1 {
+    padding: 0 5px;
+    height: 26px;
+    width: 330px;
+    font-size: 15px;
+  }
+  .English {
+    font: 0.55em sans-serif;
+    > h3 {
+      padding-right: 2px;
+    }
+  }
+  .Login {
+    font-size: 4px;
+    font: 0.57em sans-serif;
+    > h3 {
+      height: 12px;
+    }
+  }
+  .line {
+    width: 30px;
+    height: 1px;
+    margin-top: 1px;
+  }
+  .Sell {
+    font-size: 8px;
+    width: 51px;
+    padding: 1px 3px;
+    height: 29px;
+    font: 0.6em sans-serif;
+  }
+  .bar {
+    height: 50px;
+    width: 50px;
+  }
+  .Navigation2 {
+    height: 40px;
+    margin-bottom: 15px;
+  }
+  .nav2 {
+    width: 95%;
+  }
+  #category {
+    width: 125px;
+    font-size: 11.5px;
+  }
+  .cars {
+    width: 89%;
+    font: 7.5px sans-serif;
+    padding-left: 4px;
+  }
+  .freshtext {
+    font-size: 20px;
+    padding-left: 65px;
+  }
+  .product {
+    grid-template-columns: auto auto auto;
+    width: 85%;
+    margin-left: 15px;
+  }
+  .product1 {
+    width: 200px;
+    height: 209px;
+    margin-top: 16px;
+  }
+  .product1image {
+    width: 200px;
+    height: 130px;
+  }
+  .product1image img {
+    width: 190px;
+    height: 120px;
+  }
+  .product1text {
+    padding: 4px 6px;
+    > h3 {
+      font-size: 19px;
+    }
+    > h4 {
+      font-size: 12px;
+      padding-top: 4px;
+    }
+    > h5 {
+      font-size: 10px;
+    }
+    > h6 {
+      font-size: 9px;
+    }
+  }
+  .product2 {
+    width: 250px;
+  }
+  .product2text {
+    padding: 4px 6px;
+    > h3 {
+      font-size: 19px;
+    }
+    > h5 {
+      font-size: 10.5px;
+      padding-bottom: 20px;
+    }
+    > h6 {
+      font-size: 9px;
+    }
+  }
+  .Navigation3 {
+    height: 150px;
+  }
+  .nav3 {
+    width: 70%;
+    margin-left: 9px;
+  }
+  .popularlocation {
+    > h2 {
+      font-size: 11px;
+    }
+    > h4 {
+      padding-top: 5px;
+      font-size: 9px;
+    }
+  }
+  .followus {
+    > h2 {
+      font-size: 11px;
+    }
+  }
+  .facebook {
+    padding-bottom: 55px;
+  }
+  .facebook1 {
+    height: 24px;
+    width: 27px;
+  }
+  .Navigation4 {
+    height: 42px;
+  }
+  .nav4 {
+    font-size: 8px;
+    width: 96%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Navigation1 {
+    height: 60px;
+    position: relative;
+    font-size: 6vw;
+  }
+  .hamburger {
+    position: absolute;
+    right: 15px;
+    display: block;
+    z-index: 2;
+  }
+  .nav-1-1 {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 600px;
+    background-color: white;
+    z-index: 1;
+    position: fixed;
+    top: 50vh;
+    transform: translate(0, -50%);
+  }
+  .nav1 {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 50vh;
+  }
+  .locationbar {
+    height: 24px;
+    padding: 0 4px;
+  }
+  .locationbar1 {
+    padding: 0 5px;
+    height: 20px;
+    width: 30vw;
+    font-size: 3vw;
+  }
+  .Serchbar {
+    height: 24px;
+    padding-left: 4px;
+  }
+  #Serchicon {
+    height: 20px;
+    width: 22px;
+  }
+  .fa-2xl {
+    font-size: small;
+  }
+  .fa-xl {
+    font-size: small;
+  }
+  .fa-l {
+    font-size: small;
+  }
+  .Serchbar1 {
+    padding: 0 5px;
+    height: 20px;
+    width: 30vw;
+    font-size: 3vw;
+  }
+  .menu-bar {
+    display: block;
+  }
+  .x-1 {
+    display: none;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+  }
+  .English {
+    font: 0.6em sans-serif;
+    > h3 {
+      padding-right: 2px;
+    }
+  }
+  .Login {
+    font: 0.6em sans-serif;
+    height: 20px;
+    padding-left: 0;
+  }
+  .line {
+    width: 32px;
+    height: 1px;
+    margin-top: 1px;
+    display: none;
+  }
+  .Sell {
+    width: auto;
+    padding: 1px 3px;
+    height: 30px;
+    font: 0.6em sans-serif;
+  }
+  .Navigation2 {
+    height: 35px;
+    margin-bottom: 14px;
+  }
+  .nav2 {
+    width: 585px;
+  }
+  #category {
+    width: 100px;
+    font-size: 9px;
+  }
+  .cars {
+    width: 550px;
+    font: 6px sans-serif;
+    padding-left: 2px;
+  }
+  .freshtext {
+    font-size: 14px;
+    padding-left: 5px;
+  }
+  .product {
+    grid-template-columns: auto auto auto;
+    width: 550px;
+    margin-left: 15px;
+  }
+  .product1 {
+    width: 170px;
+    margin-top: 10px;
+    height: 159px;
+  }
+  .product1image {
+    width: 167px;
+    height: 100px;
+  }
+  .product1image img {
+    width: 155px;
+    height: 100px;
+  }
+  .product1text {
+    padding: 4px 6px;
+    > h3 {
+      font-size: 13px;
+    }
+    > h4 {
+      font-size: 8px;
+    }
+    > h5 {
+      font-size: 7px;
+    }
+    > h6 {
+      font-size: 6.5px;
+    }
+  }
+  .product2 {
+    width: 170px;
+    height: 100px;
+  }
+  .product2text {
+    padding: 4px 6px;
+    > h3 {
+      font-size: 15px;
+      padding-bottom: 2px;
+    }
+
+    > h5 {
+      font-size: 8px;
+      padding-bottom: 8px;
+    }
+    > h6 {
+      font-size: 6.5px;
+    }
+  }
+  .Navigation3 {
+    height: 130px;
+  }
+  .nav3 {
+    width: 95%;
+    margin-left: 9px;
+  }
+  .popularlocation {
+    > h2 {
+      font-size: 10px;
+    }
+    > h4 {
+      padding-top: 5px;
+      font-size: 7px;
+    }
+  }
+  .followus {
+    > h2 {
+      font-size: 10px;
+    }
+  }
+  .facebook {
+    padding-bottom: 25px;
+  }
+  .facebook1 {
+    height: 17px;
+    fill: #557477;
+    width: 20px;
+  }
+  .Navigation4 {
+    height: 38px;
+  }
+  .nav4 {
+    font-size: 8px;
+    width: 95%;
+  }
+}
